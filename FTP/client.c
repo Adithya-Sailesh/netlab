@@ -1,7 +1,7 @@
 // First Run gcc server.c
-//             ./a.out
+
 // Second Run gcc client.c
-//             ./a.out
+
 // Third Enter port address in server.c first
 // Fourth Enter port address in client.c
 
@@ -36,6 +36,7 @@ int main(){
         exit(EXIT_FAILURE);
     }
     printf("\nConnection Success!!!!!!!!!!!!\n");
+    print("Hello Client");
     printf("\nEnter the FileName:");
     scanf("%s",name);
     write(clisocket,name,Max);
