@@ -1,3 +1,10 @@
+// First Run gcc server.c
+//             ./a.out
+// Second Run gcc client.c
+//             ./a.out
+// Third Enter port address in server.c first
+// Fourth Enter port address in client.c
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
